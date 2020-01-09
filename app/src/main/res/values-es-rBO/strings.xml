@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Sólo Java</string>
+
+    <string name="hint">Nombre</string>
+
+
+    <string name="toppings">Ingredientes</string>
+
+    <string name="summary">Order Summary</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="whipped_cream">Crema batida</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="qty">Cantidad</string>
+    <string name="qty_number">0</string>
+    <string name="order">Ordenar</string>
+    <string name="name">Nombre: <xliff:g example="Amy" id="name">%s</xliff:g></string>
+
+    <!--
+      Whipped cream topping for the order summary. It will be shown in the format of
+      "Add whipped cream? true" or "Add whipped cream? false". [CHAR LIMIT=NONE]
+    -->
+    <string name="summary_whipped_cream">crema batida: <xliff:g example="true" id="addWhippedCream">%b</xliff:g></string>
+
+    <!--
+      Chocolate topping for the order summary. It will be shown in the format of
+      "Add chocolate? true" or "Add chocolate? false". [CHAR LIMIT=NONE]
+    -->
+    <string name="summary_chocolate">Chocolate: <xliff:g example="true" id="addChocolate">%b</xliff:g></string>
+
+    <!--
+      Quantity of coffee cups for the order summary. It will be shown in the format of
+      "Quantity: 2", where 2 is the number of cups ordered. [CHAR LIMIT=NONE]
+    -->
+    <string name="summary_quantity">Cantidad: <xliff:g example="2" id="quantity">%d</xliff:g></string>
+
+    <!--
+      Total price for the order summary. It will be shown in the format of
+      "Total: $10" where $10 is the price. [CHAR LIMIT=NONE]
+    -->
+    <string name="summary_price">Total: <xliff:g example="$10" id="price">%s</xliff:g></string>
+
+    <!-- Thank you message for the order summary. [CHAR LIMIT=NONE] -->
+    <string name="thanks">¡Gracias!</string>
+
+    <!--
+      Subject line for the order summary email. It will be in the format of
+      "Just Java order for Amy" where Amy is the user's name. [CHAR LIMIT=NONE]
+    -->
+    <string name="summary_email_subject">Sólo java para <xliff:g example="Amy" id="name">%s</xliff:g></string>
+</resources>
